@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Developer Portfolio</title>
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav>
+  <h2 class="logo">MyPortfolio</h2>
+  <ul>
+    <li><a href="#home">Home</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#experience">Experience</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- HEADER -->
+<section id="home" class="header">
+  <h1>Your Name</h1>
+  <h3>Software Developer</h3>
+  <p>
+    Passionate software developer with experience in building scalable web
+    applications and solving real-world problems using modern technologies.
+  </p>
+
+  <div class="contact-info">
+    <span><i class="fas fa-envelope"></i> email@example.com</span>
+    <span><i class="fas fa-phone"></i> +91 9876543210</span>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills">
+  <h2>Technical Skills</h2>
+  <div class="skills-grid">
+    <div>
+      <h4>Languages</h4>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>Python</li>
+      </ul>
+    </div>
+
+    <div>
+      <h4>Frameworks</h4>
+      <ul>
+        <li>React</li>
+        <li>Node.js</li>
+        <li>Bootstrap</li>
+      </ul>
+    </div>
+
+    <div>
+      <h4>Tools</h4>
+      <ul>
+        <li>Git & GitHub</li>
+        <li>VS Code</li>
+        <li>Postman</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section id="experience">
+  <h2>Work Experience</h2>
+
+  <div class="card">
+    <h3>Frontend Developer</h3>
+    <h4>ABC Tech Solutions</h4>
+    <span>Jan 2023 – Present</span>
+    <ul>
+      <li>Developed responsive web interfaces using HTML, CSS, and JavaScript</li>
+      <li>Improved website performance by 30%</li>
+      <li>Collaborated with backend teams</li>
+    </ul>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <h2>Projects</h2>
+
+  <div class="projects-grid">
+    <div class="project-card">
+      <h3>Portfolio Website</h3>
+      <p>Personal portfolio showcasing skills and projects.</p>
+      <p><strong>Tech:</strong> HTML, CSS, JavaScript</p>
+      <a href="#">GitHub Link</a>
+    </div>
+
+    <div class="project-card">
+      <h3>Restaurant Website</h3>
+      <p>Responsive restaurant menu and landing page.</p>
+      <p><strong>Tech:</strong> HTML, CSS</p>
+      <a href="#">Live Demo</a>
+    </div>
+
+    <div class="project-card">
+      <h3>Task Manager</h3>
+      <p>Simple task management app with local storage.</p>
+      <p><strong>Tech:</strong> JavaScript</p>
+      <a href="#">GitHub Link</a>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <h2>Contact & Links</h2>
+
+  <div class="social-links">
+    <a href="#"><i class="fab fa-github"></i></a>
+    <a href="#"><i class="fab fa-linkedin"></i></a>
+    <a href="#"><i class="fas fa-globe"></i></a>
+  </div>
+
+  <button onclick="downloadPDF()">Download PDF</button>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <p>© 2025 Your Name | Contact me for collaboration opportunities</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
