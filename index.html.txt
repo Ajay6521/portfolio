@@ -120,6 +120,307 @@
 <!-- CONTACT -->
 <section id="contact">
   <h2>Contact & Links</h2>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Software Developer Portfolio</title>
+
+<!-- Font Awesome Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<style>
+/* ===== RESET ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  background: #f4f6f8;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* ===== NAVBAR ===== */
+nav {
+  position: sticky;
+  top: 0;
+  background: #0a1f44;
+  padding: 15px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+}
+
+nav h2 {
+  color: #fff;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* ===== HEADER ===== */
+header {
+  background: #0a1f44;
+  color: #fff;
+  padding: 80px 40px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 3rem;
+}
+
+header h3 {
+  font-weight: 400;
+  margin: 10px 0;
+}
+
+.contact span {
+  display: block;
+  margin-top: 8px;
+}
+
+/* ===== SECTIONS ===== */
+section {
+  padding: 60px 40px;
+  max-width: 1100px;
+  margin: auto;
+}
+
+section h2 {
+  text-align: center;
+  margin-bottom: 40px;
+  color: #0a1f44;
+}
+
+/* ===== SKILLS ===== */
+.skills {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.skill-box {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.skill-box ul {
+  margin-top: 10px;
+}
+
+/* ===== EXPERIENCE ===== */
+.experience {
+  background: #fff;
+  padding: 25px;
+  border-radius: 8px;
+}
+
+.experience span {
+  color: #777;
+  font-size: 0.9rem;
+}
+
+/* ===== PROJECTS ===== */
+.projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.project {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.project a {
+  display: inline-block;
+  margin-top: 10px;
+  color: #0a1f44;
+  font-weight: 500;
+}
+
+/* ===== CONTACT ===== */
+.social {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.social a {
+  margin: 0 10px;
+  color: #0a1f44;
+}
+
+button {
+  display: block;
+  margin: 30px auto;
+  padding: 12px 25px;
+  background: #0a1f44;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* ===== FOOTER ===== */
+footer {
+  background: #0a1f44;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 600px) {
+  header h1 {
+    font-size: 2.2rem;
+  }
+}
+</style>
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav>
+  <h2>MyPortfolio</h2>
+  <ul>
+    <li><a href="#home">Home</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#experience">Experience</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- HEADER -->
+<header id="home">
+  <h1>Your Name</h1>
+  <h3>Software Developer</h3>
+  <p>Software developer with experience in building responsive web applications and solving real-world problems.</p>
+
+  <div class="contact">
+    <span><i class="fas fa-envelope"></i> email@example.com</span>
+    <span><i class="fas fa-phone"></i> +91 9876543210</span>
+  </div>
+</header>
+
+<!-- SKILLS -->
+<section id="skills">
+  <h2>Technical Skills</h2>
+  <div class="skills">
+    <div class="skill-box">
+      <h4>Languages</h4>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+      </ul>
+    </div>
+    <div class="skill-box">
+      <h4>Frameworks</h4>
+      <ul>
+        <li>React</li>
+        <li>Node.js</li>
+      </ul>
+    </div>
+    <div class="skill-box">
+      <h4>Tools</h4>
+      <ul>
+        <li>Git & GitHub</li>
+        <li>VS Code</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section id="experience">
+  <h2>Work Experience</h2>
+  <div class="experience">
+    <h3>Frontend Developer – ABC Tech</h3>
+    <span>Jan 2023 – Present</span>
+    <ul>
+      <li>Built responsive web interfaces</li>
+      <li>Improved performance and UX</li>
+      <li>Collaborated with cross-functional teams</li>
+    </ul>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects">
+  <h2>Projects</h2>
+  <div class="projects">
+    <div class="project">
+      <h3>Portfolio Website</h3>
+      <p>Personal portfolio showcasing skills and projects.</p>
+      <p><strong>Tech:</strong> HTML, CSS, JavaScript</p>
+      <a href="#">GitHub</a>
+    </div>
+
+    <div class="project">
+      <h3>Restaurant Website</h3>
+      <p>Responsive restaurant menu and landing page.</p>
+      <p><strong>Tech:</strong> HTML, CSS</p>
+      <a href="#">Live Demo</a>
+    </div>
+
+    <div class="project">
+      <h3>Task Manager</h3>
+      <p>Task management app using local storage.</p>
+      <p><strong>Tech:</strong> JavaScript</p>
+      <a href="#">GitHub</a>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <h2>Contact & Links</h2>
+  <div class="social">
+    <a href="#"><i class="fab fa-github"></i></a>
+    <a href="#"><i class="fab fa-linkedin"></i></a>
+    <a href="#"><i class="fas fa-globe"></i></a>
+  </div>
+
+  <button onclick="downloadPDF()">Download PDF</button>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <p>© 2025 Your Name | Contact me for collaboration opportunities</p>
+</footer>
+
+<script>
+function downloadPDF() {
+  alert("Use Print → Save as PDF for best results.");
+  window.print();
+}
+</script>
+
+</body>
+</html>
 
   <div class="social-links">
     <a href="#"><i class="fab fa-github"></i></a>
@@ -138,3 +439,4 @@
 <script src="script.js"></script>
 </body>
 </html>
+
